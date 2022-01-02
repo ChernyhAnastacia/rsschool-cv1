@@ -34,6 +34,9 @@ At the moment I have a keen desire to learn and develop in IT as a frontend deve
 ##### **Javascript**
 ##### **React**
 ##### **Node**
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> rsschool-cv-html

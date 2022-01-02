@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #bd9bc7;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    min-height: 100vh;
+    width: 80%;
+    margin: 0rem 10rem auto;
+}
+
+.footer {
+    position: relative;
+    background-color: rgba(116, 37, 138, 0.93);
+    width: 80%;
+    margin: 0rem 4rem 5rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+
+.footer a {
+    padding: 0.2rem;
+    color: rgb(35, 27, 44);
+    text-decoration: none;
+}
+
+.left-part {
+    height: 100%;
+    background-color: rgba(116, 37, 138, 0.93);
+}
+
+.right-part {
+
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.left-content {
+    padding: 2rem 3rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 1px solid #b913e8;
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 70%;
+    border: 1px solid #a37bab;
+}
+
+
+.name {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.career {
+    font-size: 1.2rem;
+    color: #231b2c;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.contact-info-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f7f7f7ec;
+    padding-top: 1.5rem;
+
+}
+
+.contact-info {
+    padding: 0 0 1em 0;
+    border-bottom: 1px solid #b913e8;
+}
+
+.contact-info ul {
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.contact-info ul li {
+    padding: 0.2rem;
+    color: rgba(41, 18, 47, 0.93);
+}
+
+.contact-info ul li a {
+    padding: 0.2rem;
+    color: rgba(41, 18, 47, 0.93);
+    text-decoration: none;
+}
+
+.education {
+    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid #b913e8;
+}
+
+.education-info, .languages-info {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f7f7f7ec;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.education-title, .languages-title {
+    color: rgba(41, 18, 47, 0.93);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+}
+
+.education-period {
+    text-align: center;
+    padding: 0.2rem;
+    color: rgba(41, 18, 47, 0.93);
+    padding-bottom: 1.5rem;
+}
+
+.education-title-2, .language-level {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3rem;
+    color: #540230;
+}
+
+
+.progress-bar {
+    width: 80%;
+    height: .6rem;
+    background-color: rgb(217, 155, 234);
+    position: relative;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #540230;
+    border-radius: 12px;
+}
+
+.a-progress {
+    width: 85%;
+}
+
+.b-progress {
+    width: 75%;
+}
+
+.c-progress {
+    width: 60%;
+}
+
+.d-progress {
+    width: 50%;
+}
+
+.e-progress {
+    width: 30%;
+}
+
+.f-progress {
+    width: 5%;
+}
+
+
+.skill-title {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(41, 18, 47, 0.93);;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #540230;
+    margin-bottom: 1.2rem;
+    margin-left: 4rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.right-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: .2rem;
+    background-color: rgb(84, 2, 48);
+    border-radius: 10px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.image-sertif {
+    width: 150px;
+    transition: width 0.5s ease;
+}
+
+.image-sertif:hover {
+    width: 300px;
+}
+
+.para {
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 0.8rem;
+}
+
+.sect {
+    padding-bottom: 2rem;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 30px;
+}
+
+.tl-title {
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #540230;
+    text-transform: uppercase;
+}
+
+.tl-title-2 {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: #540230;
+    text-transform: uppercase;
+}
+
+#rs-school-img {
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: 100;
+}
+
+header {
+    position: relative;
+    margin: 4rem 10rem auto;
+    width: 80%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 30px;
+    background: rgba(116, 37, 138, 0.93);
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    right: 36px;
+    display: flex;
+}
+
+.navigation-menu {
+    display: block;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.navigation-menu-ul {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.navigation-menu ul li {
+    list-style: none;
+    margin: 80px 10px 0px 120px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-about, .nav-contacts, .nav-courses, .nav-education, .nav-skills {
+    color: rgba(41, 18, 47, 0.93);
+    font-size: large;
+}
